@@ -1,0 +1,178 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder",
+        "in_Booleano"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "int_rowCount&Sequence_1",
+        "firstItemPosition&Sequence_1",
+        "int_firstItemX&Sequence_1",
+        "int_firstItemY&Sequence_1",
+        "int_advert&Sequence_1",
+        "int_itemCount&Sequence_1",
+        "str_fullText&Sequence_95",
+        "str_croppedText&Sequence_95",
+        "str_separator&Sequence_95",
+        "str_pesos&Sequence_95",
+        "bool_err_aditionalConf&Sequence_8",
+        "bool_err_accept&Sequence_8",
+        "bool_nextItem&Sequence_8",
+        "bool_err_yaTienes&Sequence_8",
+        "int_finalPrice&Sequence_8",
+        "str_centavos&Sequence_8",
+        "str_fullText&Sequence_30",
+        "str_croppedText&Sequence_30",
+        "str_separator&Sequence_30",
+        "str_pesos&Sequence_30",
+        "int_sumPrice&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_str_TempPath",
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_Temp&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TempPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.d9dded0d66e5.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.424b5fefef3f.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_err_aditionalConf&Sequence_92",
+        "bool_err_accept&Sequence_92",
+        "bool_nextItem&Sequence_92",
+        "bool_err_yaTienes&Sequence_92",
+        "int_finalPrice&Sequence_92",
+        "str_centavos&Sequence_92",
+        "int_sumPrice&Sequence_92",
+        "int_FirstItemX&Sequence_92",
+        "ContextTarget&Sequence_92"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config",
+        "in_str_TempPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData",
+        "Booleano"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequencies/Eliminar ventas.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "int_loaderTimeout&Sequence_1",
+        "bool_err&Sequence_7",
+        "bool_loader&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_int_advert"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
